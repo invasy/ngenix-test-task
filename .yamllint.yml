@@ -1,0 +1,16 @@
+# .yamllint.yml - yamllint configuration
+#
+# Documentation:
+# - https://yamllint.readthedocs.io/en/stable/configuration.html
+#
+extends: default
+rules:
+  colons:
+    max-spaces-after: -1
+  document-start: disable
+  indentation:
+    spaces: 2
+    indent-sequences: false
+  line-length:
+    max: 120
+    level: warning

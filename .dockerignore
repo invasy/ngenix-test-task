@@ -1,0 +1,9 @@
+*
+!pyproject.toml
+!noxfile.py
+!requirements-dev.txt
+!requirements.txt
+!random_xml_csv/
+!tests/
+!README.md
+!LICENSE

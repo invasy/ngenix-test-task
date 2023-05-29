@@ -1,0 +1,22 @@
+*               text=auto
+
+*.py            text diff=python
+*.sh            text diff=bash eol=lf
+.env*           text diff=bash eol=lf
+
+*.toml          text
+*.yml           text
+
+*.txt           text
+*.md            text diff=markdown
+COPYING         text
+LICENSE         text
+
+Makefile        text eol=lf
+Dockerfile      text eol=lf
+.dockerignore   text
+.editorconfig   text
+.gitattributes  text export-ignore
+.gitignore      text export-ignore
+.gitkeep        text export-ignore
+.gitmodules     text export-ignore

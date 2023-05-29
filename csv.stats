@@ -1,0 +1,343 @@
+         29545 function calls (29535 primitive calls) in 0.261 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     5000    0.140    0.000    0.160    0.000 /media/c/Users/vp/src/ngenix-test/random_xml_csv/csv.py:29(process_xml)
+        2    0.031    0.016    0.031    0.016 {method 'writerows' of '_csv.writer' objects}
+       59    0.030    0.001    0.030    0.001 {method 'acquire' of '_thread.lock' objects}
+     5000    0.018    0.000    0.018    0.000 /media/c/Users/vp/src/ngenix-test/random_xml_csv/csv.py:33(<listcomp>)
+        1    0.014    0.014    0.261    0.261 /media/c/Users/vp/src/ngenix-test/random_xml_csv/csv.py:46(xml2csv)
+        2    0.004    0.002    0.004    0.002 {built-in method io.open}
+       12    0.004    0.000    0.004    0.000 {built-in method posix.fork}
+     5000    0.002    0.000    0.002    0.000 <string>:2(__init__)
+       51    0.002    0.000    0.003    0.000 /usr/lib/python3.10/pathlib.py:438(_select_from)
+        4    0.001    0.000    0.001    0.000 {method '__exit__' of '_io._IOBase' objects}
+       51    0.001    0.000    0.001    0.000 {built-in method posix.write}
+       12    0.001    0.000    0.006    0.000 /usr/lib/python3.10/multiprocessing/popen_fork.py:62(_launch)
+        1    0.001    0.001    0.001    0.001 {built-in method posix.scandir}
+     5001    0.001    0.000    0.001    0.000 {method 'extend' of 'list' objects}
+        8    0.001    0.000    0.001    0.000 {built-in method posix.stat}
+       12    0.001    0.000    0.001    0.000 /usr/lib/python3.10/multiprocessing/process.py:80(__init__)
+        1    0.001    0.001    0.001    0.001 {built-in method _thread.start_new_thread}
+     5047    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+       12    0.001    0.000    0.008    0.001 /usr/lib/python3.10/multiprocessing/process.py:110(start)
+       12    0.001    0.000    0.001    0.000 /usr/lib/python3.10/multiprocessing/util.py:186(__init__)
+       12    0.000    0.000    0.007    0.001 /usr/lib/python3.10/multiprocessing/context.py:278(_Popen)
+       12    0.000    0.000    0.010    0.001 /usr/lib/python3.10/concurrent/futures/process.py:702(_spawn_process)
+       56    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:236(__init__)
+       50    0.000    0.000    0.014    0.000 /usr/lib/python3.10/concurrent/futures/process.py:712(submit)
+       12    0.000    0.000    0.006    0.001 /usr/lib/python3.10/multiprocessing/popen_fork.py:15(__init__)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/util.py:433(_flush_std_streams)
+       51    0.000    0.000    0.027    0.001 /usr/lib/python3.10/concurrent/futures/_base.py:614(result_iterator)
+       50    0.000    0.000    0.027    0.001 /usr/lib/python3.10/concurrent/futures/_base.py:430(result)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:50(__init__)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:228(_releaseLock)
+       51    0.000    0.000    0.001    0.000 /usr/lib/python3.10/multiprocessing/connection.py:181(send_bytes)
+       50    0.000    0.000    0.000    0.000 {built-in method posix.close}
+       51    0.000    0.000    0.004    0.000 /usr/lib/python3.10/concurrent/futures/process.py:186(_get_chunks)
+        1    0.000    0.000    0.018    0.018 /usr/lib/python3.10/concurrent/futures/_base.py:610(<listcomp>)
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:90(RLock)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:122(put)
+       66    0.000    0.000    0.000    0.000 {built-in method posix.waitpid}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:827(__init__)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/process.py:61(_cleanup)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:404(parent)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_weakrefset.py:86(add)
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3.10/concurrent/futures/process.py:766(shutdown)
+       85    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+       27    0.000    0.000    0.000    0.000 {built-in method posix.pipe}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/process.py:271(__init__)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:966(_make_child_relpath)
+       24    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+       51    0.000    0.000    0.027    0.001 /usr/lib/python3.10/concurrent/futures/process.py:564(_chain_from_iterable_of_lists)
+       51    0.000    0.000    0.001    0.000 /usr/lib/python3.10/multiprocessing/connection.py:390(_send_bytes)
+       66    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/popen_fork.py:24(poll)
+      151    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:264(__enter__)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/process.py:234(ident)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/_base.py:330(__init__)
+       12    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       50    0.000    0.000    0.012    0.000 /usr/lib/python3.10/concurrent/futures/process.py:669(_start_executor_manager_thread)
+       50    0.000    0.000    0.027    0.001 /usr/lib/python3.10/concurrent/futures/_base.py:316(_result_or_cancel)
+       12    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+      151    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:267(__exit__)
+       54    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+       51    0.000    0.000    0.004    0.000 /usr/lib/python3.10/pathlib.py:1023(glob)
+       51    0.000    0.000    0.001    0.000 /usr/lib/python3.10/multiprocessing/connection.py:365(_send)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/process.py:189(name)
+        1    0.000    0.000    0.010    0.010 /usr/lib/python3.10/concurrent/futures/process.py:694(_launch_processes)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/_base.py:366(cancel)
+      100    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.RLock' objects}
+       52    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:600(_from_parsed_parts)
+        2    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+       25    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.10/threading.py:916(start)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/process.py:99(_check_closed)
+       51    0.000    0.000    0.001    0.000 /usr/lib/python3.10/concurrent/futures/process.py:77(wakeup)
+        3    0.000    0.000    0.027    0.009 /usr/lib/python3.10/threading.py:288(wait)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:1430(current_thread)
+       51    0.000    0.000    0.000    0.000 {built-in method _struct.pack}
+       38    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        2    0.000    0.000    0.036    0.018 /media/c/Users/vp/src/ngenix-test/random_xml_csv/csv.py:22(write)
+      2/1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:494(_parse)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.10/concurrent/futures/process.py:584(__init__)
+      107    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      100    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:412(_select_from)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1536(find_spec)
+      100    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:359(notify)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/process.py:141(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:921(_find_spec)
+  191/188    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       58    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x555a9ccd09a0}
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/_base.py:400(__get_result)
+       50    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:213(_put)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/tempfile.py:281(rng)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:1(<module>)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/process.py:94(<genexpr>)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:56(parse_parts)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/util.py:205(__call__)
+       12    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:545(__init__)
+       51    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:279(_is_owned)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:391(cached)
+      101    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.cpu_count}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:1301(_make_invoke_excepthook)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:950(get_code)
+        2    0.000    0.000    0.000    0.000 {method '_acquire_restore' of '_thread.RLock' objects}
+       53    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/random.py:519(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.mkdir}
+       35    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:380(cache_from_source)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:569(_parse_args)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/tempfile.py:292(__next__)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:897(__exit__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:65(Lock)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:621(__str__)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1022(_find_and_load)
+       35    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      3/1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:87(_compile)
+       51    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+       51    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:134(_check_closed)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.10/pathlib.py:1300(is_dir)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.10/_weakrefset.py:39(_remove)
+        2    0.000    0.000    0.000    0.000 {built-in method _csv.writer}
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/logging/__init__.py:219(_acquireLock)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:114(_make_name)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/random.py:506(choices)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1070(get_data)
+       54    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+       12    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x7f2b8255e440}
+        1    0.000    0.000    0.018    0.018 /usr/lib/python3.10/concurrent/futures/_base.py:585(map)
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:615(_make_child)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:492(_init_module_attrs)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:664(_load_unlocked)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/util.py:171(register_after_fork)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.10/concurrent/futures/process.py:532(_check_system_limits)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/fnmatch.py:80(translate)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:165(__setitem__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:782(_newname)
+        2    0.000    0.000    0.004    0.002 /usr/lib/python3.10/pathlib.py:1111(open)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:783(compile)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:608(_format_parsed_parts)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:128(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1399(_get_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/queues.py:37(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:516(Pipe)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:1170(mkdir)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/cProfile.py:50(create_stats)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/re.py:288(_compile)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:106(remove)
+       47    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+      3/1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:175(getwidth)
+        2    0.000    0.000    0.000    0.000 {method 'writerow' of '_csv.writer' objects}
+       51    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:142(_check_writable)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.10/threading.py:589(wait)
+        1    0.000    0.000    0.018    0.018 /usr/lib/python3.10/concurrent/futures/process.py:737(map)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/util.py:461(close_fds)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:721(spec_from_file_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:1028(_stop)
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3.10/threading.py:1102(_wait_for_tstate_lock)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:631(__fspath__)
+      2/1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:485(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/random.py:128(seed)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:670(_compile_bytecode)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:234(__next)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:398(select_from)
+       20    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:165(__getitem__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:1183(daemon)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:585(_classify_pyc)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:877(exec_module)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/popen_fork.py:1(<module>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+       20    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:117(__init__)
+      2/1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:436(_parse_sub)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/queues.py:71(_reset)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:944(parse)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:348(__new__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:356(_escape)
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3.10/threading.py:1064(join)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:46(SemLock)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:560(_compile_info)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:434(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.10/pathlib.py:1092(stat)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:868(_parse_flags)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:564(module_from_spec)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:353(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1531(_get_spec)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+       40    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:85(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:260(compile_pattern)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:360(Barrier)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/popen_fork.py:12(Popen)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:110(SimpleQueue)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:510(_get_cached)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3.10/concurrent/futures/_base.py:648(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:60(Pipe)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:800(_maintain_shutdown_locks)
+        6    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:34(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:90(_make_methods)
+       40    0.000    0.000    0.000    0.000 {built-in method math.floor}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:986(__and__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:239(splitroot)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method from_iterable}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/process.py:67(__init__)
+       28    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.sysconf}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/queues.py:339(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:368(_make_selector)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:853(__truediv__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:161(__init__)
+       10    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:255(get)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:273(_release_save)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/codecs.py:186(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/re.py:269(escape)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:428(__setitem__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:893(__enter__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:542(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/weakref.py:370(remove)
+        4    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /home/vp/.local/share/venv/ngenix/lib/python3.10/site-packages/_distutils_hack/__init__.py:89(find_spec)
+        2    0.000    0.000    0.000    0.000 {method '_release_save' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+       14    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/process.py:163(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1356(_path_importer_cache)
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:173(append)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:618(_validate_timestamp_pyc)
+        4    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:94(join_parsed_parts)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:225(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:826(find_spec)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:359(__call__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:622(_code)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:422(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1089(path_stats)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        8    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/random.py:119(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:516(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:173(close)
+       12    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/util.py:44(sub_debug)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:130(__del__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/enum.py:678(__new__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:287(tell)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:237(get_context)
+       12    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/queues.py:348(close)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:389(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:112(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:161(__len__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:210(Condition)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       12    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:619(isstring)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:250(match)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:76(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:276(_acquire_restore)
+        6    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:187(get_context)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/context.py:197(get_start_method)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:810(<listcomp>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1040(__init__)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        2    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISDIR}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:928(fix_flags)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:746(find_spec)
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/connection.py:360(_close)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:81(_combine_flags)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:447(_simple)
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/process.py:37(current_process)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/queue.py:206(_init)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of 'posix.ScandirIterator' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/re.py:249(compile)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_compile.py:477(_get_iscased)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/threading.py:553(is_set)
+        1    0.000    0.000    0.000    0.000 {method 'difference_update' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method '_is_owned' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:123(Semaphore)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:321(Event)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:82(groups)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method io.text_encoding}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:144(__init__)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:142(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:184(RLock)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/pathlib.py:43(_is_wildcard_pattern)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(has_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1065(get_filename)
+        1    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/multiprocessing/synchronize.py:159(Lock)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/concurrent/futures/_base.py:645(__enter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.10/sre_parse.py:169(__setitem__)
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:874(create_module)
+
+

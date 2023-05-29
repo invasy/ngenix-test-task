@@ -1,0 +1,46 @@
+# pre-commit configuration
+#
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+#
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v3.2.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-json
+  - id: check-toml
+  - id: check-yaml
+  - id: check-added-large-files
+  - id: check-executables-have-shebangs
+  - id: check-shebang-scripts-are-executable
+  - id: detect-private-key
+  - id: fix-byte-order-marker
+  - id: mixed-line-ending
+    args: ["--fix=lf"]
+- repo: https://github.com/abravalheri/validate-pyproject
+  rev: main
+  hooks:
+  - id: validate-pyproject
+- repo: https://github.com/jazzband/pip-tools
+  rev: 6.12.0
+  hooks:
+  - id: pip-compile
+- repo: https://github.com/asottile/pyupgrade
+  rev: v3.3.1
+  hooks:
+  - id: pyupgrade
+- repo: https://github.com/crate-ci/typos
+  rev: v1.13.4
+  hooks:
+  - id: typos
+- repo: https://github.com/charliermarsh/ruff-pre-commit
+  rev: v0.0.189
+  hooks:
+  - id: ruff
+- repo: https://github.com/dhatim/python-license-check
+  rev: master
+  hooks:
+  - id: liccheck
+    language: system

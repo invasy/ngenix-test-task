@@ -1,0 +1,92 @@
+# pyproject.toml - Python project metadata
+#
+# Documentation:
+# - https://peps.python.org/pep-0621/
+# - https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+# - https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+#
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'random_xml_csv'
+description = 'NGENIX test task: generate random XML files and convert them to CSV files'
+readme = 'README.md'
+license = {'file' = 'LICENSE'}
+authors = [
+    {name = 'Vasiliy Polyakov', email = 'job@invasy.dev'},
+]
+maintainers = [
+    {name = 'Vasiliy Polyakov', email = 'job@invasy.dev'},
+]
+keywords = ['Reef', 'test', 'project']
+classifiers = [  # https://pypi.org/classifiers/
+    'Development Status :: 2 - Pre-Alpha',
+    'Environment :: Console',
+    'Framework :: tox',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+    'Natural Language :: English',
+    'Operating System :: MacOS',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX :: Linux',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Topic :: File Formats',
+    'Topic :: Software Development',
+    'Topic :: System :: Archiving',
+    'Topic :: Text Processing :: Markup :: XML',
+    'Topic :: Utilities',
+]
+requires-python = '>=3.8'
+dependencies = [
+    'lxml',
+]
+dynamic = ['version']
+
+[project.optional-dependencies]
+dev = [
+    'lxml-stubs',
+    'mypy',
+    'nox',
+    'pip-tools',
+    'pre-commit',
+    'pytest',
+    'pytest-sugar',
+    'ruff',
+    'validate-pyproject[all]',
+    'yamllint',
+]
+
+[project.scripts]
+random-xml-csv = 'random_xml_csv.cli:main'
+
+[tool.setuptools.dynamic]
+version = {attr = 'random_xml_csv.__version__'}
+
+[tool.ruff]
+target-version = 'py311'
+line-length = 120
+extend-select = [
+    'B', 'C4', 'EM', 'I', 'ICN', 'ISC', 'N', 'PIE', 'PLC', 'PLE', 'PLR',
+    'PLW', 'PT', 'Q', 'RET', 'RUF', 'S', 'SIM', 'T20', 'YTT',
+]
+extend-ignore = ['F403', 'F405', 'S101', 'S311']
+extend-exclude = []
+ignore-init-module-imports = true
+fix = false
+dummy-variable-rgx = '^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$'
+
+[tool.ruff.flake8-quotes]
+inline-quotes = 'single'
+
+[tool.pytest.ini_options]
+addopts = ['--import-mode=importlib']
+
+[tool.coverage.run]
+omit = ['__main__.py', 'cli.py']
